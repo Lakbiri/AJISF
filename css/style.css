@@ -1,0 +1,131 @@
+
+body {
+    height: 1600px;
+    text-align: right;
+}
+
+.navtop {
+    color: #ddd;
+    background: black;
+    
+}
+
+
+
+
+nav { }
+
+.navbar {
+    direction: rtl;
+    margin-top: 24px;
+    
+}
+
+
+
+.navbar .collapse .nav-item .dropdown-menu {
+
+    text-align: right
+}
+
+
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.carousel-indicators li {
+    
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+
+
+#mycarousel {
+    
+    overflow: hidden;
+}
+
+
+.objectif{
+    min-height: 500px;
+    background: url(../img/2.jpg) black;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7
+  
+}
+
+
+
+
+#contact {
+    background: black;
+    overflow: hidden;
+    z-index: 1;
+    position: relative;
+    
+    
+}
+
+#contact::before{
+    content: ' ';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.3;
+    background-image:  url('../img/cover-contact.jpg');
+    
+    background-attachment: fixed;    
+    background-repeat: no-repeat;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    
+}
+
+#contact .cont {
+    
+    z-index: 2;
+    position: relative;
+    color: black;
+    padding: 50px;
+    color: #fff;
+}
+
+#contact .cont .address{
+    
+    margin-top: 30px;
+    font-size: 23px;
+    
+}
+
+
+
+.brand   {
+    
+    height: 200px;
+    background: #fff;
+}
+
+
+footer {
+    
+    background: #ddd;
+}
+
+
+
+
